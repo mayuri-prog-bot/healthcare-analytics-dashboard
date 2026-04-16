@@ -1,16 +1,21 @@
-# React + Vite
+# Healthcare Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A 3-page interactive healthcare analytics dashboard built with React and Recharts.
 
-Currently, two official plugins are available:
+## 📊 Features
+- Executive Summary with KPI cards
+- Clinical Analysis — outcomes by diagnosis, age groups
+- Cost & Operations — treatment cost, length of stay
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React + Vite
+- Recharts
+- CSS-in-JS
 
-## React Compiler
+## 📁 Dataset
+- Source: Custom healthcare dataset (200 patients)
+- Files: Patients.csv, Diagnosis.csv, Labs.csv, Outcomes.csv
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+npm install
+npm run dev
